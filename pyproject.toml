@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kafka-producer"
+version = "0.1.0"
+description = "A Kafka producer application for simulating streaming event. It supports single and batch message sending modes, making it suitable for testing and development scenarios in streaming apps."
+authors = ["Elbek Tursunov <telbekel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+kafka-python = "^2.0.2"
+faker = "^25.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
