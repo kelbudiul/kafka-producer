@@ -7,8 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-kafka-python = "^2.0.2"
 faker = "^25.0.1"
+confluent-kafka = "^2.5.0"
+pytest = "^8.3.2"
 
 
 [build-system]
